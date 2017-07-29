@@ -41,6 +41,7 @@ public class Sip extends SipProvider {
 
     public synchronized void onReceivedMessage(Transport transport, Message msg) {
         System.out.println("<----------received sip message---------->");
+
         System.out.println(msg.toString());
     }
 }
